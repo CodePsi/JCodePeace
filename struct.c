@@ -3,7 +3,7 @@
 
 struct warehouse{
 	char *name;
-	char *types;
+	char *type;
 	int quantity;
 	double cost;
 	
@@ -11,7 +11,7 @@ struct warehouse{
 int main (){
 struct warehouse wh;
 wh.name = "Sugar";
-wh.types = "kg";
+wh.type = "kg";
 wh.quantity = 100;
 wh.cost = 10.12;
 printf("%s, %s, %d, %g", wh.name, wh.types, wh.quantity, wh.cost);
