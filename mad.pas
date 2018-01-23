@@ -44,7 +44,7 @@ var i, j: Integer;
 begin
 for i := 1 to 5 do
   for j := 1 to 5 do
-  // ß íå çíàþ, ÷è á³ëüøå 0.5, ÷è ìåíüøå 0.5, ñàì³ âèð³ø³òü.
+  // ÃŸ Ã­Ã¥ Ã§Ã­Ã Ã¾, Ã·Ã¨ Ã¡Â³Ã«Ã¼Ã¸Ã¥ 0.5, Ã·Ã¨ Ã¬Ã¥Ã­Ã¼Ã¸Ã¥ 0.5, Ã±Ã Ã¬Â³ Ã¢Ã¨Ã°Â³Ã¸Â³Ã²Ã¼.
     if (arrayOf[i, j] >= 0.5) then
       sumNumberZeroPointFive += arrayOf[i, j];
 write(NewLine(), 'The sum of the numbers for the big zero point five: ', sumNumberZeroPointFive: 0: 2, NewLine());
